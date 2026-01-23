@@ -1,0 +1,36 @@
+header {
+    text-transform: uppercase;
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 1.5rem;
+}
+
+main {
+    column-count: 3;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2rem;
+    border: 2px solid black; 
+    padding: 2px;          
+    display: inline-block;
+    margin-left: 2px;
+}
+
+h2 {
+    text-align: center; 
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+header p {
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.5rem;
+}
