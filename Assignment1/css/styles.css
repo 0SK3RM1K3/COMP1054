@@ -22,6 +22,15 @@ footer {
   padding: 2rem 1rem;
 }
 
+/*Center album cover, restric size, round corners and add transparent shadow*/
+header img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 200px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
 /*make main flex container and content in article display in a column*/
 main {
   display: flex;
