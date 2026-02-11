@@ -35,3 +35,54 @@ article {
   gap: 3rem;
   max-width: 700px;
 }
+
+/*Typography*/
+h1,
+h2 {
+  font-family:  "Almendra SC", serif;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #e8b07a;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/*Lyrics*/
+section p {
+  font-family: "Fondamento", serif;
+}
+
+/*Aside*/
+aside {
+  border-left: 3px solid #e8b07a;
+  padding-left: 1.5rem;
+}
+
+blockquote {
+  margin-bottom: 1rem;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+/*Footer and Links*/
+footer small {
+  font-size: 0.85rem;
+  color: #cfc6bd;
+}
+
+a {
+  color: #e8b07a;
+}
