@@ -10,9 +10,14 @@
 /*Set background colour and typography "Base"*/
 body {
   font-family: serif;
-  background-color: #1f1c1a;
   color: #f2ece6;
   line-height: 1.6;
+
+  /*Add Background image of field and make it stick to the background*/
+  background-image: url("../images/EveningField.jpg") no-repeat;
+  background-size: cover;      
+  background-attachment: fixed; 
+  background-position: center;  
 }
 
 /*Start centering*/
