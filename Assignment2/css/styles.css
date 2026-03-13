@@ -25,7 +25,7 @@ article {
         "article1 article2 article3"
 		"footer footer footer"
 	;
-	grid-template-rows: 300px 300px 200px 300px 300px 50px;
+	grid-template-rows: 300px 300px 200px 225px 300px 50px;
 	grid-template-columns: 300px 300px 300px;
 	gap: 1rem;
 }
@@ -69,3 +69,16 @@ p strong {
     color: orange;
 }
 
+/*2nd h2*/
+article h2:nth-of-type(2) { 
+    margin: 0;
+    font-size: 0.8rem;
+    grid-area: article1;
+}
+
+/*2nd p*/
+article p:nth-of-type(2) { 
+    position: relative;
+    top: 5px;
+    grid-area: article1;
+}
