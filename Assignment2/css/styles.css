@@ -25,11 +25,12 @@ article {
         "article1 article2 article3"
 		"footer footer footer"
 	;
-	grid-template-rows: 150px 150px 150px 150px 150px 50px;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 300px 300px 200px 300px 300px 50px;
+	grid-template-columns: 300px 300px 300px;
 	gap: 1rem;
 }
 
+/* Header */
 h1{
     color: orange;
     text-transform: uppercase;
@@ -40,7 +41,28 @@ h1{
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
-
+/*Source image*/
 img {
     grid-area: image;
+}
+
+/*First h2*/
+article h2:first-of-type { 
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    grid-area: starter;
+}
+
+article p:first-of-type { 
+    font-size: 1.1rem;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    grid-area: starter;
+}
+
+p strong {
+    color: orange;
 }
