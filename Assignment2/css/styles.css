@@ -176,9 +176,20 @@ article p:nth-of-type(8) {
 }
 
 /*9th p*/
-article p:nth-of-type(9) { 
+article p:nth-of-type(9) {
+    font-weight: bold; 
     position: relative;
     top: 790px;
     text-align: right;
     grid-area: article3;
+}
+
+footer{
+    grid-area: footer;
+    position: relative;
+    top: -60px;
+}
+
+em {
+    font-weight: bold;
 }
