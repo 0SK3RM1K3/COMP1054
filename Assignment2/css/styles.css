@@ -112,3 +112,19 @@ article p:nth-of-type(4) {
     top: 5px;
     grid-area: article2;
 }
+
+/*5th h2*/
+article h2:nth-of-type(5) { 
+    margin: 0;
+    font-size: 0.8rem;
+    grid-area: article2;
+    position: relative;
+    top: 205px;
+}
+
+/*5th p*/
+article p:nth-of-type(5) { 
+    position: relative;
+    top: 210px;
+    grid-area: article2;
+}
