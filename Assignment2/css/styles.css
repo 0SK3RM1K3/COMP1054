@@ -55,6 +55,7 @@ article h2:first-of-type {
     grid-area: starter;
 }
 
+/*First p*/
 article p:first-of-type { 
     font-size: 1.1rem;
     position: relative;
@@ -63,6 +64,8 @@ article p:first-of-type {
     grid-area: starter;
 }
 
+/*Name in first p*/
 p strong {
     color: orange;
 }
+
