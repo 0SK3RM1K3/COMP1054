@@ -158,3 +158,27 @@ article p:nth-of-type(7) {
     top: 300px;
     grid-area: article3;
 }
+
+/*8th h2*/
+article h2:nth-of-type(8) { 
+    margin: 0;
+    font-size: 0.8rem;
+    grid-area: article3;
+    position: relative;
+    top: 480px;
+}
+
+/*8th p*/
+article p:nth-of-type(8) { 
+    position: relative;
+    top: 485px;
+    grid-area: article3;
+}
+
+/*9th p*/
+article p:nth-of-type(9) { 
+    position: relative;
+    top: 790px;
+    text-align: right;
+    grid-area: article3;
+}
