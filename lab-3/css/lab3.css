@@ -4,20 +4,14 @@
 /* Box-sizing reset (https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/) */
 html {
 	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
-html {
-	font-family: "Open Sans", sans-serif;
-}
 #container {
 	width: 80%;
-	margin: 0 auto;
-}
-
-div#container {
 	min-width: 720px;
 	max-width: 1024px;
 	margin: 0 auto;
@@ -33,31 +27,29 @@ div ul {
 div li {
 	margin: 0 2.5px;
 	display: block;
-	padding: 0.5em;
+	padding: 0.5em 1em;
 	background: lightgrey;
 	border-radius: 5px 5px 0 0;
 	border: 3px solid black;
-	text-decoration: none;
-	color: #000;
+	border-bottom: none;
 }
 
 div li:hover {
 	background: #fff;
 }
 
-div li#selected {
-	background: #fff;
-	border-bottom: 3px solid #fff;
+div li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
 }
 
-div[role = "tabpanel"] {
-	background: #fff;
+[role="tabpanel"] {
+	display: none;
 	padding: 1em;
-	line-height: 1.5;
 	border: 3px solid black;
-	top: -3px;
-	position: relative;
+	background: #fff;
+	margin-top: 0;
 }
-
 
 
