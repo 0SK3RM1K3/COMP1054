@@ -28,9 +28,16 @@ div li {
 	margin: 0 2.5px;
 	display: block;
 	padding: 0.5em 1em;
-	background: lightgrey;
+	background-color: lightgrey;
 	border-radius: 5px 5px 0 0;
+	border: 3px solid lightgrey;
+	border-bottom: none;
+}
+
+/*This was and attempt at making the tabs change but I couldnt figure it out...*/
+[role="tab"]#selected {
 	border: 3px solid black;
+	background-color: white;
 	border-bottom: none;
 }
 
@@ -43,13 +50,18 @@ div li a {
 	color: #000;
 	display: block;
 }
-
+/* hide the text blocks */
 [role="tabpanel"] {
 	display: none;
 	padding: 1em;
 	border: 3px solid black;
-	background: #fff;
+	background: white;
 	margin-top: 0;
 }
 
-
+/* Make the text bloxks appear
+Learned from MDN that you cant access the href with css but that when the href is changed that becomes the target. 
+So just use target like a switch */
+[role="tabpanel"]:target {
+	display: block;
+}
