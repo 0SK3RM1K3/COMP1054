@@ -6,7 +6,7 @@ html {
 
 td, th {
     border-top: 1px solid lightgray;
-    padding: 1em;
+    padding: 0.75em;
 }
 
 table {
