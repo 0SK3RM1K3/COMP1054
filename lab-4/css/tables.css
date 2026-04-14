@@ -6,5 +6,16 @@ html {
 
 td, th {
     border-top: 1px solid lightgray;
-    padding: 0.5em;
+    padding: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+
+tr td:nth-child(2) {
+    padding-right: 140px;
 }
