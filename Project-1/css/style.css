@@ -370,4 +370,25 @@ a.link-allstyles:focus,
     font-weight: bold;
 }
 
+/* lift the footer up off the bottom of the page and make the background a darker purple */
+.page-footer {
+    padding-bottom: 2rem;
+}
+
+.page-footer .container {
+    background: #1d0a39;
+}
+
+.page-footer ul {
+    margin: 1rem 0;
+}
+
+/* shrink the star svg and sit it beside the github link */
+svg {
+    width: 1rem;
+    height: 1rem;
+    fill: var(--white);
+    display: inline-block;
+    vertical-align: middle;
+}
 
