@@ -1,37 +1,32 @@
-/* reset everything to border box */
+@charset "utf-8";
+
+/* set border-box font size and line-height for html */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* set everything to inherit */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: inherit;
 }
 
-/* set the scroll behavior to smooth on main element */
-html {
-  scroll-behavior: smooth;
+/* color variables */
+:root {
+    --bg-dark: #16002b;
+    --bg-mid: #2a1252;
+    --panel: #3a1f70;
+    --panel-alt: #241046;
+    --yellow: #ffe44d;
+    --pink: #ff4fa3;
+    --blue: #33d1ff;
+    --green: #7dff72;
+    --orange: #ff9f1c;
+    --white: #fffdf5;
+    --black: #12031f;
+    --border: #12031f;
 }
 
-/* reset the margins to 0 on all text */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-blockquote {
-  margin: 0;
-}
-
-/* add padding to the lists */
-ul,
-ol {
-  padding-left: 1.25rem;
-}
-
-/* set the image size and display property */
-img,
-svg {
-  max-width: 100%;
-  display: block;
-}
