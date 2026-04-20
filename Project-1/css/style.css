@@ -392,3 +392,39 @@ svg {
     vertical-align: middle;
 }
 
+/* set the links to width 100% and centered text for mobile screens */
+@media screen and (max-width: 767px) {
+    .link-guidelines,
+    .link-downloadcss,
+    .link-downloadhtml,
+    .link-codepen,
+    .link-allstyles,
+    .profile .container > a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* build media query for medium size screens */
+@media screen and (min-width: 768px) {
+
+    /* change the nav direction to row and center the text */
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* MDN showed me how to use grow, shrink and set basis to auto to make all of my links the same size and fill the box they are in */
+    nav li {
+        flex: 1 1 auto;
+    }
+
+    /* change footer links so they are side by side */
+    .page-footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+}
+
