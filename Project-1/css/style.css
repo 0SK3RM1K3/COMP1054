@@ -204,3 +204,48 @@ main {
 main > .container {
     display: block;
 }
+
+/* make panels for ech section of content */
+section.container,
+#files .container,
+.profile .container,
+#styles .container,
+.page-footer .container {
+    background: var(--panel-alt);
+    border: 5px solid var(--border);
+    box-shadow: 6px 6px 0 var(--black);
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+/* style the headers for each of the secutions */
+section.container h2,
+section.container h3,
+#files h3,
+.profile h4,
+#styles h2 {
+    display: inline-block;
+    padding: 0.35rem 0.65rem;
+    border: 3px solid var(--border);
+    box-shadow: 3px 3px 0 var(--black);
+}
+
+#about section.container h2,
+#contribute section.container h3 {
+    background: var(--pink);
+    color: var(--white);
+}
+
+#guidelines section.container h2,
+#files h3 {
+    background: var(--orange);
+    color: var(--black);
+}
+
+.profile h4,
+#styles h2 {
+    background: var(--blue);
+    color: var(--black);
+}
+
+
